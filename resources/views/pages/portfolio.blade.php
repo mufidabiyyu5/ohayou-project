@@ -25,7 +25,7 @@
         </section>
         <section class="container container-fluid service-section">
             <div class="d-none d-lg-flex align-items-center service-content">
-                <img src="Project/assets/images/service-1.png" alt="Vendor" class="img-fluid" width="400" height="400">
+                <img src="frontend/assets/images/service-1.png" alt="Vendor" class="img-fluid" width="400" height="400">
                 <div class="d-block text-content">
                     <h3>Vendor</h3>
                     <p>Lagi cari vendor untuk brand kamu? Kamilah solusinya, kami siap melayani pesanan dari satuan sampai ribuan dengan harga
@@ -53,7 +53,7 @@
                     reseller tentunya sangat menguntungkan untuk kamu yang ingin mendapatkan uang tambahan. Jadi tunggu apalagi? Yuk jadi
                     reseller di ohayou.co!</p>
                 </div>
-                <img src="Project/assets/images/service-1.png" alt="Vendor" class="img-fluid" width="400" height="400">
+                <img src="frontend/assets/images/service-1.png" alt="Vendor" class="img-fluid" width="400" height="400">
             </div>
             <div class="d-block d-lg-none text-content">
                 <h3>Reseller</h3>
@@ -64,7 +64,7 @@
                     reseller di ohayou.co!</p>
             </div>
             <div class="d-none d-lg-flex align-items-center service-content">
-                <img src="Project/assets/images/service-3.png" alt="Vendor" class="img-fluid" width="400" height="400">
+                <img src="frontend/assets/images/service-3.png" alt="Vendor" class="img-fluid" width="400" height="400">
                 <div class="d-block text-content">
                     <h3>Satuan & Paket Custom</h3>
                     <p>Pengen order baju custom tapi cuma pengen satuan? Tenang aja, bisa kok di ohayou.co. Disini kamu bisa order suka-suka
@@ -92,7 +92,7 @@
                     <p>Kamu tinggal bilang aja desain yang kamu mau seperti apa, cukup sketsa kasarnya aja atau tunjukin referensi desain yang
                     kamu mau. Nanti kami yang akan poles desainnya menjadi rapih dan bagus sampai kamu bilang oke ke kami.</p>
                 </div>
-                <img src="Project/assets/images/service-4.png" alt="Vendor" class="img-fluid" width="400" height="400">
+                <img src="frontend/assets/images/service-4.png" alt="Vendor" class="img-fluid" width="400" height="400">
             </div>
             <div class="d-block d-lg-none text-content">
                 <h3>Gratis Jasa Desain</h3>
@@ -112,12 +112,12 @@
                 </h2>
                 <div class="text-center">
                     <a href="http://wa.me/6289525958301" target="_blank" class="btn btn-white">
-                        <img src="Project/assets/icon/ri-whatsapp-line-black.svg" alt="Whatsapp">
+                        <img src="frontend/assets/icon/ri-whatsapp-line-black.svg" alt="Whatsapp">
                         Hubungi Whatsapp Kami
                     </a>
                     <br/>
                     <a href="https://www.instagram.com/ohayou_co/" target="_blank" class="btn btn-outline-white">
-                        <img src="Project/assets/icon/ri-instagram-line.svg" alt="Instagram">
+                        <img src="frontend/assets/icon/ri-instagram-line.svg" alt="Instagram">
                         Cek Instagram Kami
                     </a>
                 </div>

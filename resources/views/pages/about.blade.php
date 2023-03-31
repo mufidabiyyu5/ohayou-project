@@ -9,7 +9,7 @@
         <section class="container container-fluid about">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <img src="Project/assets/images/about-img.png" alt="About" class="img-fluid">
+                    <img src="frontend/assets/images/about-img.png" alt="About" class="img-fluid">
                 </div>
                 <div class="col-lg-6">
                     <h2>
@@ -26,13 +26,13 @@
                         reseller
                         atau dropshipper yang tentunya akan sangat menguntungkan untuk kamu.
                     </p>
-                    <a href="http://wa.me/6289525958301" target="_blank" class="btn btn-primary"><img src="Project/assets/icon/ri-whatsapp-line.svg" alt="Whatsapp" class="img-fluid">
+                    <a href="http://wa.me/6289525958301" target="_blank" class="btn btn-primary"><img src="frontend/assets/icon/ri-whatsapp-line.svg" alt="Whatsapp" class="img-fluid">
                         Hubungi Whatsapp Kami</a>
                 </div>
             </div>
         </section>
         <section class="container container-fluid location text-center">
-            <img src="Project/assets/images/location.png" alt="location">
+            <img src="frontend/assets/images/location.png" alt="location">
             <h3>Lokasi Kami</h3>
             <span>Perum Pesona Wibawa Praja G3/5, Kecamatan Cisoka, <br/>
             Kabupaten Tangerang, Banten</span>
@@ -41,34 +41,34 @@
             <h2><span>Keunggulan</span> Kami</h2>
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-4">
-                    <img src="Project/assets/images/thumbs.png" alt="Produk Berkualitas" class="img-fluid">
+                    <img src="frontend/assets/images/thumbs.png" alt="Produk Berkualitas" class="img-fluid">
                     <h3>Produk Berkualitas</h3>
                     <caption>Kami selalu menjaga dan memakai bahan yang berkualitas untuk produk kami</caption>
                 </div>
                 <div class="col-lg-4">
-                    <img src="Project/assets/images/design.png" alt="Free Jasa Desain" class="img-fluid">
+                    <img src="frontend/assets/images/design.png" alt="Free Jasa Desain" class="img-fluid">
                     <h3>Free Jasa Desain</h3>
                     <caption>Kami menyediakan jasa konsultasi dan pembuatan desain secara gratis loh!</caption>
                 </div>
                 <div class="col-lg-4">
-                    <img src="Project/assets/images/package.png" alt="Tidak Ada Minimal Order" class="img-fluid">
+                    <img src="frontend/assets/images/package.png" alt="Tidak Ada Minimal Order" class="img-fluid">
                     <h3>Tidak Ada Minimal Order</h3>
                     <caption>Kamu bisa order satuan ataupun banyak, pokoknya suka-suka kamu deh hehe</caption>
                 </div>
             </div>
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-4">
-                    <img src="Project/assets/images/product.png" alt="Sample Produk" class="img-fluid">
+                    <img src="frontend/assets/images/product.png" alt="Sample Produk" class="img-fluid">
                     <h3>Sample Produk</h3>
                     <caption>Kami akan mengirimkan gambaran sample produk yang di order untuk di cek kembali</caption>
                 </div>
                 <div class="col-lg-4">
-                    <img src="Project/assets/images/price.png" alt="Harga Kompetitif" class="img-fluid">
+                    <img src="frontend/assets/images/price.png" alt="Harga Kompetitif" class="img-fluid">
                     <h3>Harga Kompetitif</h3>
                     <caption>Selalu ada harga khusus untuk kamu yang membeli secara grosir</caption>
                 </div>
                 <div class="col-lg-4">
-                    <img src="Project/assets/images/warranty.png" alt="Garansi Produk" class="img-fluid">
+                    <img src="frontend/assets/images/warranty.png" alt="Garansi Produk" class="img-fluid">
                     <h3>Garansi Produk</h3>
                     <caption>Kami memberikan garansi terhadap kualitas produk yang baik</caption>
                 </div>
@@ -92,12 +92,12 @@
                 </h2>
                 <div class="text-center">
                     <a href="http://wa.me/6289525958301" target="_blank" class="btn btn-white">
-                        <img src="Project/assets/icon/ri-whatsapp-line-black.svg" alt="Whatsapp">
+                        <img src="frontend/assets/icon/ri-whatsapp-line-black.svg" alt="Whatsapp">
                         Hubungi Whatsapp Kami
                     </a>
                     <br/>
                     <a href="https://www.instagram.com/ohayou_co/" target="_blank" class="btn btn-outline-white">
-                        <img src="Project/assets/icon/ri-instagram-line.svg" alt="Instagram">
+                        <img src="frontend/assets/icon/ri-instagram-line.svg" alt="Instagram">
                         Cek Instagram Kami
                     </a>
                 </div>

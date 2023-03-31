@@ -16,20 +16,20 @@
                 <a data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" class="btn btn-primary" href="{{route('products')}}">Cek Katalog Produk</a>
                 <div class="d-flex align-items-center rate">
                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" class="d-flex align-items-center rate-comp">
-                        <img src="Project/assets/images/Tokopedia.png" alt="Tokopedia" width="44" height="44">
+                        <img src="frontend/assets/images/Tokopedia.png" alt="Tokopedia" width="44" height="44">
                         <div class="d-block rate-title">
                             <div class="d-flex rate-caption">
-                                <img src="Project/assets/icon/star.svg" alt="star">
+                                <img src="frontend/assets/icon/star.svg" alt="star">
                                 <span id="caption">4.9 Rating</span>
                             </div>
                             <span>di Tokopedia</span>
                         </div>
                     </div>
                     <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="800" class="d-flex align-items-center rate-comp">
-                        <img src="Project/assets/images/Shopee.png" alt="Shopee" width="44" height="44">
+                        <img src="frontend/assets/images/Shopee.png" alt="Shopee" width="44" height="44">
                         <div class="d-block rate-title">
                             <div class="d-flex rate-caption">
-                                <img src="Project/assets/icon/star.svg" alt="star">
+                                <img src="frontend/assets/icon/star.svg" alt="star">
                                 <span id="caption">4.7 Rating</span>
                             </div>
                             <span>di Shopee</span>
@@ -44,15 +44,15 @@
                     <input type="radio" name="slider" id="item-3">
                     <div class="cards">
                         <label class="card-hero-img" for="item-1" id="song-1">
-                            <img src="Project/assets/images/image-hero-1.jpg"
+                            <img src="frontend/assets/images/image-hero-1.jpg"
                                 alt="song">
                         </label>
                         <label class="card-hero-img" for="item-2" id="song-2">
-                            <img src="Project/assets/images/image-hero-2.jpg"
+                            <img src="frontend/assets/images/image-hero-2.jpg"
                                 alt="song">
                         </label>
                         <label class="card-hero-img" for="item-3" id="song-3">
-                            <img src="Project/assets/images/image-hero-3.jpg"
+                            <img src="frontend/assets/images/image-hero-3.jpg"
                                 alt="song">
                         </label>
                     </div>
@@ -83,34 +83,34 @@
             <h2 data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"><span>Keunggulan</span> Kami</h2>
             <div class="row align-items-center justify-content-center">
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" class="col-lg-4">
-                    <img src="Project/assets/images/thumbs.png" alt="Produk Berkualitas" class="img-fluid">
+                    <img src="frontend/assets/images/thumbs.png" alt="Produk Berkualitas" class="img-fluid">
                     <h3>Produk Berkualitas</h3>
                     <caption>Kami selalu menjaga dan memakai bahan yang berkualitas untuk produk kami</caption>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="col-lg-4">
-                    <img src="Project/assets/images/design.png" alt="Free Jasa Desain" class="img-fluid">
+                    <img src="frontend/assets/images/design.png" alt="Free Jasa Desain" class="img-fluid">
                     <h3>Free Jasa Desain</h3>
                     <caption>Kami menyediakan jasa konsultasi dan pembuatan desain secara gratis loh!</caption>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" class="col-lg-4">
-                    <img src="Project/assets/images/package.png" alt="Tidak Ada Minimal Order" class="img-fluid">
+                    <img src="frontend/assets/images/package.png" alt="Tidak Ada Minimal Order" class="img-fluid">
                     <h3>Tidak Ada Minimal Order</h3>
                     <caption>Kamu bisa order satuan ataupun banyak, pokoknya suka-suka kamu deh hehe</caption>
                 </div>
             </div>
             <div class="row align-items-center justify-content-center">
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" class="col-lg-4">
-                    <img src="Project/assets/images/product.png" alt="Sample Produk" class="img-fluid">
+                    <img src="frontend/assets/images/product.png" alt="Sample Produk" class="img-fluid">
                     <h3>Sample Produk</h3>
                     <caption>Kami akan mengirimkan gambaran sample produk yang di order untuk di cek kembali</caption>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="col-lg-4">
-                    <img src="Project/assets/images/price.png" alt="Harga Kompetitif" class="img-fluid">
+                    <img src="frontend/assets/images/price.png" alt="Harga Kompetitif" class="img-fluid">
                     <h3>Harga Kompetitif</h3>
                     <caption>Selalu ada harga khusus untuk kamu yang membeli secara grosir</caption>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" class="col-lg-4">
-                    <img src="Project/assets/images/warranty.png" alt="Garansi Produk" class="img-fluid">
+                    <img src="frontend/assets/images/warranty.png" alt="Garansi Produk" class="img-fluid">
                     <h3>Garansi Produk</h3>
                     <caption>Kami memberikan garansi terhadap kualitas produk yang baik</caption>
                 </div>
@@ -119,7 +119,7 @@
         <section class="container container-fluid about">
             <div class="row align-items-center">
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" class="col-lg-6">
-                    <img src="Project/assets/images/about-img.png" alt="About" class="img-fluid">
+                    <img src="frontend/assets/images/about-img.png" alt="About" class="img-fluid">
                 </div>
                 <div class="col-lg-6">
                     <h2 data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">
@@ -136,7 +136,7 @@
                         reseller
                         atau dropshipper yang tentunya akan sangat menguntungkan untuk kamu.
                     </p>
-                    <a data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" href="http://wa.me/6289525958301" target="_blank" class="btn btn-primary"><img src="Project/assets/icon/ri-whatsapp-line.svg" alt="Whatsapp" class="img-fluid">
+                    <a data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" href="http://wa.me/6289525958301" target="_blank" class="btn btn-primary"><img src="frontend/assets/icon/ri-whatsapp-line.svg" alt="Whatsapp" class="img-fluid">
                         Hubungi Whatsapp Kami</a>
                 </div>
             </div>
@@ -145,22 +145,22 @@
             <h2 data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"><span>Cara Pemesanan</span> Produk</h2>
             <div class="row align-items-start justify-content-center">
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" class="col-lg-3">
-                    <img src="Project/assets/icon/design-tools.svg" alt="Design" class="img-fluid">
+                    <img src="frontend/assets/icon/design-tools.svg" alt="Design" class="img-fluid">
                     <h4>Tentukan Desain</h4>
                     <p>Kalau kamu belum menentukan desainnya, tenang aja kita bantu bikin desainnya buat kamu</p>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="col-lg-3 text-center">
-                    <img src="Project/assets/icon/plain-credit-card.svg" alt="Payment" class="img-fluid">
+                    <img src="frontend/assets/icon/plain-credit-card.svg" alt="Payment" class="img-fluid">
                     <h4>Pembayaran DP</h4>
                     <p>Sebelum ke produksi, kamu bayar DP (Down Payment) dulu ya sebesar 50% aja kok</p>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" class="col-lg-3 text-center">
-                    <img src="Project/assets/icon/hand-sewing.svg" alt="Production" class="img-fluid">
+                    <img src="frontend/assets/icon/hand-sewing.svg" alt="Production" class="img-fluid">
                     <h4>Proses Produksi</h4>
                     <p>Setelah pembayaran DP, kami akan langsung memproduksi pesanan kamu</p>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" class="col-lg-3 text-center">
-                    <img src="Project/assets/icon/mail-sent.svg" alt="Design" class="img-fluid">
+                    <img src="frontend/assets/icon/mail-sent.svg" alt="Design" class="img-fluid">
                     <h4>Pelunasan dan Pengiriman</h4>
                     <p>Setelah kamu melunaskan pesanan, kami akan mengirimkan pesananmu ke alamat pengiriman</p>
                 </div>
@@ -171,31 +171,31 @@
             <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">Berikut adalah galeri dari beberapa pelanggan <br/>yang puas dengan produk ohayou.co</p>
             <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" class="row align-items-center justify-content-center">
                 <div class="col-lg-3">
-                    <img src="Project/assets/images/galeri-1.png" alt="galeri-1" class="img-fluid">
+                    <img src="frontend/assets/images/galeri-1.png" alt="galeri-1" class="img-fluid">
                 </div>
                 <div class="col-lg-2">
-                    <img src="Project/assets/images/galeri-2.png" alt="galeri-2" class="img-fluid">
+                    <img src="frontend/assets/images/galeri-2.png" alt="galeri-2" class="img-fluid">
                     <div class="row">
                         <div class="col-sm">
-                            <img src="Project/assets/images/galeri-3.png" alt="galeri-3" class="img-fluid">
+                            <img src="frontend/assets/images/galeri-3.png" alt="galeri-3" class="img-fluid">
                         </div>
                         <div class="col-sm">
-                            <img src="Project/assets/images/galeri-4.png" alt="galeri-4" class="img-fluid">
+                            <img src="frontend/assets/images/galeri-4.png" alt="galeri-4" class="img-fluid">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2">
-                    <img src="Project/assets/images/galeri-5.png" alt="galeri-5" class="img-fluid">
+                    <img src="frontend/assets/images/galeri-5.png" alt="galeri-5" class="img-fluid">
                 </div>
                 <div class="col-lg-3">
-                    <img src="Project/assets/images/galeri-6.png" alt="galeri-6" class="img-fluid">
+                    <img src="frontend/assets/images/galeri-6.png" alt="galeri-6" class="img-fluid">
                 </div>
                 <div class="col-lg-2">
                     <div class="row-lg">
-                        <img src="Project/assets/images/galeri-7.png" alt="galeri-7" class="img-fluid">
+                        <img src="frontend/assets/images/galeri-7.png" alt="galeri-7" class="img-fluid">
                     </div>
                     <div class="row-lg">
-                        <img src="Project/assets/images/galeri-8.png" alt="galeri-8" class="img-fluid">
+                        <img src="frontend/assets/images/galeri-8.png" alt="galeri-8" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -224,30 +224,30 @@
             <h2 data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">Beragam <span>Metode Pembayaran</span></h2>
             <div class="row align-items-center justify-content-center">
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" class="col-3">
-                    <img src="Project/assets/images/BNI.png" alt="BNI" class="img-fluid">
+                    <img src="frontend/assets/images/BNI.png" alt="BNI" class="img-fluid">
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="col-3">
-                    <img src="Project/assets/images/BRI.png" alt="BRI" class="img-fluid">
+                    <img src="frontend/assets/images/BRI.png" alt="BRI" class="img-fluid">
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" class="col-3">
-                    <img src="Project/assets/images/BCA.png" alt="BCA" class="img-fluid">
+                    <img src="frontend/assets/images/BCA.png" alt="BCA" class="img-fluid">
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" class="col-3">
-                    <img src="Project/assets/images/Mandiri.png" alt="Mandiri" class="img-fluid">
+                    <img src="frontend/assets/images/Mandiri.png" alt="Mandiri" class="img-fluid">
                 </div>
             </div>
             <div class="row">
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" class="col-3">
-                    <img src="Project/assets/images/Gopay.png" alt="Gopay" class="img-fluid">
+                    <img src="frontend/assets/images/Gopay.png" alt="Gopay" class="img-fluid">
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="col-3">
-                    <img src="Project/assets/images/Shopeepay.png" alt="Shopeepay" class="img-fluid">
+                    <img src="frontend/assets/images/Shopeepay.png" alt="Shopeepay" class="img-fluid">
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" class="col-3">
-                    <img src="Project/assets/images/Ovo.png" alt="Ovo" class="img-fluid">
+                    <img src="frontend/assets/images/Ovo.png" alt="Ovo" class="img-fluid">
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" class="col-3">
-                    <img src="Project/assets/images/Dana.png" alt="Dana" class="img-fluid">
+                    <img src="frontend/assets/images/Dana.png" alt="Dana" class="img-fluid">
                 </div>
             </div>
         </section>
@@ -259,12 +259,12 @@
                 </h2>
                 <div class="text-center">
                     <a href="http://wa.me/6289525958301" target="_blank" class="btn btn-white">
-                        <img src="Project/assets/icon/ri-whatsapp-line-black.svg" alt="Whatsapp">
+                        <img src="frontend/assets/icon/ri-whatsapp-line-black.svg" alt="Whatsapp">
                         Hubungi Whatsapp Kami
                     </a>
                     <br/>
                     <a href="https://www.instagram.com/ohayou_co/" target="_blank" class="btn btn-outline-white">
-                        <img src="Project/assets/icon/ri-instagram-line.svg" alt="Instagram">
+                        <img src="frontend/assets/icon/ri-instagram-line.svg" alt="Instagram">
                         Cek Instagram Kami
                     </a>
                 </div>

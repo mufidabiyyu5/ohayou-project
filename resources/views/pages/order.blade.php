@@ -10,22 +10,22 @@
             <h2><span>Cara Pemesanan</span> Produk</h2>
             <div class="row align-items-start justify-content-center">
                 <div class="col-lg-3">
-                    <img src="Project/assets/icon/design-tools.svg" alt="Design" class="img-fluid">
+                    <img src="frontend/assets/icon/design-tools.svg" alt="Design" class="img-fluid">
                     <h4>Tentukan Desain</h4>
                     <p>Kalau kamu belum menentukan desainnya, tenang aja kita bantu bikin desainnya buat kamu</p>
                 </div>
                 <div class="col-lg-3 text-center">
-                    <img src="Project/assets/icon/plain-credit-card.svg" alt="Payment" class="img-fluid">
+                    <img src="frontend/assets/icon/plain-credit-card.svg" alt="Payment" class="img-fluid">
                     <h4>Pembayaran DP</h4>
                     <p>Sebelum ke produksi, kamu bayar DP (Down Payment) dulu ya sebesar 50% aja kok</p>
                 </div>
                 <div class="col-lg-3 text-center">
-                    <img src="Project/assets/icon/hand-sewing.svg" alt="Production" class="img-fluid">
+                    <img src="frontend/assets/icon/hand-sewing.svg" alt="Production" class="img-fluid">
                     <h4>Proses Produksi</h4>
                     <p>Setelah pembayaran DP, kami akan langsung memproduksi pesanan kamu</p>
                 </div>
                 <div class="col-lg-3 text-center">
-                    <img src="Project/assets/icon/mail-sent.svg" alt="Design" class="img-fluid">
+                    <img src="frontend/assets/icon/mail-sent.svg" alt="Design" class="img-fluid">
                     <h4>Pelunasan dan Pengiriman</h4>
                     <p>Setelah kamu melunaskan pesanan, kami akan mengirimkan pesananmu ke alamat pengiriman</p>
                 </div>
@@ -140,12 +140,12 @@
                 </h2>
                 <div class="text-center">
                     <a href="http://wa.me/6289525958301" target="_blank" class="btn btn-white">
-                        <img src="{{url('Project/assets/icon/ri-whatsapp-line-black.svg')}}" alt="Whatsapp">
+                        <img src="{{url('frontend/assets/icon/ri-whatsapp-line-black.svg')}}" alt="Whatsapp">
                         Hubungi Whatsapp Kami
                     </a>
                     <br/>
                     <a href="https://www.instagram.com/ohayou_co/" target="_blank" class="btn btn-outline-white">
-                        <img src="{{url('Project/assets/icon/ri-instagram-line.svg')}}" alt="Instagram">
+                        <img src="{{url('frontend/assets/icon/ri-instagram-line.svg')}}" alt="Instagram">
                         Cek Instagram Kami
                     </a>
                 </div>

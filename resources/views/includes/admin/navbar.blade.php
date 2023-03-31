@@ -16,7 +16,7 @@
                                     {{Auth::user()->name}}
                                 </span>
                                 <img class="img-profile rounded-circle"
-                                    src="{{url('Project/assets/images/Profile-admin.png')}}">
+                                    src="{{url('frontend/assets/images/Profile-admin.png')}}">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"

@@ -2,7 +2,7 @@
         <div class="container container-fluid">
             <div class="row">
                 <div class="col-lg-3">
-                    <img src="{{url('Project/assets/images/Logo-white.png')}}" alt="Logo" class="img-fluid">
+                    <img src="{{url('frontend/assets/images/Logo-white.png')}}" alt="Logo" class="img-fluid">
                 </div>
                 <div class="col-lg-3">
                     <h5>Produk Kami</h5>
@@ -34,11 +34,11 @@
                 <div class="col-lg-3">
                     <h5>Cek Toko Kami</h5>
                     <a href="https://www.tokopedia.com/ohayouclothing" target="_blank" class="btn btn-tokopedia d-block">
-                        <img src="{{url('Project/assets/images/Tokopedia.png')}}" alt="Tokopedia"> Tokopedia
+                        <img src="{{url('frontend/assets/images/Tokopedia.png')}}" alt="Tokopedia"> Tokopedia
                     </a>
                     <br/>
                     <a href="https://shopee.co.id/ohayou.co" target="_blank" class="btn btn-shopee d-block">
-                        <img src="{{url('Project/assets/images/Shopee.png')}}" alt="Shopee"> Shopee
+                        <img src="{{url('frontend/assets/images/Shopee.png')}}" alt="Shopee"> Shopee
                     </a>
                 </div>
             </div>

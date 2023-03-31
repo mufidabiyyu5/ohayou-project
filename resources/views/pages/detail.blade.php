@@ -37,7 +37,7 @@
                     <h1>Rp {{number_format($items->price)}} / pcs</h1>
                     @if ($items->isbestselling)
                         <div class="d-flex align-items-center badge-product">
-                            <img src="{{url('Project/assets/icon/thumbs.svg')}}" alt="thumbs">
+                            <img src="{{url('frontend/assets/icon/thumbs.svg')}}" alt="thumbs">
                             <span>Produk paling laku</span>
                         </div>
                     @endif
@@ -52,10 +52,10 @@
                     <div class="card-contact d-block">
                         <p>Kamu dapat melakukan konsultasi terlebih dahulu atau pesan melalui Whatsapp kami</p>
                         <a href="http://wa.me/6289525958301?text=Halo, Saya ingin memesan {{$items->title}}" target="_blank" class="btn btn-primary d-block">
-                            <img src="{{url('Project/assets/icon/ri-whatsapp-line.svg')}}" alt="Pesan"> Pesan
+                            <img src="{{url('frontend/assets/icon/ri-whatsapp-line.svg')}}" alt="Pesan"> Pesan
                         </a>
                         <a href="http://wa.me/6289525958301?text=Halo, Saya ingin menanyakan terkait produk {{$items->title}}" target="_blank" class="btn btn-outline-primary d-block">
-                            <img src="{{url('Project/assets/icon/message.svg')}}" alt="konsultasi"> Konsultasi
+                            <img src="{{url('frontend/assets/icon/message.svg')}}" alt="konsultasi"> Konsultasi
                         </a>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                                 <div class="d-block featured">
                                     @foreach ($item->description as $desc)
                                         <div>
-                                            <img src="{{url('Project/assets/icon/check-white.svg')}}" alt="check">
+                                            <img src="{{url('frontend/assets/icon/check-white.svg')}}" alt="check">
                                             <span>{{$desc['value']}}</span>
                                         </div>
                                     @endforeach
@@ -94,7 +94,7 @@
                                 <div class="d-block featured">
                                     @foreach ($item->description as $desc)
                                         <div>
-                                            <img src="{{url('Project/assets/icon/check-yellow.svg')}}" alt="check">
+                                            <img src="{{url('frontend/assets/icon/check-yellow.svg')}}" alt="check">
                                             <span>{{$desc['value']}}</span>
                                         </div>
                                     @endforeach
@@ -113,12 +113,12 @@
                 </h2>
                 <div class="text-center">
                     <a href="http://wa.me/6289525958301" target="_blank" class="btn btn-white">
-                        <img src="{{url('Project/assets/icon/ri-whatsapp-line-black.svg')}}" alt="Whatsapp">
+                        <img src="{{url('frontend/assets/icon/ri-whatsapp-line-black.svg')}}" alt="Whatsapp">
                         Hubungi Whatsapp Kami
                     </a>
                     <br/>
                     <a href="https://www.instagram.com/ohayou_co/" target="_blank" class="btn btn-outline-white">
-                        <img src="{{url('Project/assets/icon/ri-instagram-line.svg')}}" alt="Instagram">
+                        <img src="{{url('frontend/assets/icon/ri-instagram-line.svg')}}" alt="Instagram">
                         Cek Instagram Kami
                     </a>
                 </div>

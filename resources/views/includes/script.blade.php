@@ -1,6 +1,6 @@
-<script src="{{Url('Project/bootstrap/js/bootstrap.js')}}"></script>
-<script src="{{Url('Project/bootstrap/js/bootstrap.min.js')}}"></script>
-<script src="{{Url('Project/js/typewriter.min.js')}}"></script>
+<script src="{{Url('frontend/bootstrap/js/bootstrap.js')}}"></script>
+<script src="{{Url('frontend/bootstrap/js/bootstrap.min.js')}}"></script>
+<script src="{{Url('frontend/js/typewriter.min.js')}}"></script>
 <script>
         var typewriter = new TypeWriter("typewriter", {
             strings: ["Kaos", "Kemeja", "Jaket", "Sweater", "Topi", "Totebag"],
@@ -10,8 +10,8 @@
 
         typewriter.start();
 </script>
-<script src="{{url('Project/js/node_modules/jquery/dist/jquery.js')}}"></script>
-<script src="{{url('Project/js/xZoom-master/dist/xzoom.min.js')}}"></script>
+<script src="{{url('frontend/js/jquery/jquery.js')}}"></script>
+<script src="{{url('frontend/js/xZoom-master/dist/xzoom.min.js')}}"></script>
 <script>
     $(document).ready(function () {
         $('.xzoom, .xzoom-gallery').xzoom({

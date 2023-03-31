@@ -38,12 +38,12 @@
                 </h2>
                 <div class="text-center">
                     <a href="http://wa.me/6289525958301" target="_blank" class="btn btn-white">
-                        <img src="Project/assets/icon/ri-whatsapp-line-black.svg" alt="Whatsapp">
+                        <img src="frontend/assets/icon/ri-whatsapp-line-black.svg" alt="Whatsapp">
                         Hubungi Whatsapp Kami
                     </a>
                     <br/>
                     <a href="https://www.instagram.com/ohayou_co/" target="_blank" class="btn btn-outline-white">
-                        <img src="Project/assets/icon/ri-instagram-line.svg" alt="Instagram">
+                        <img src="frontend/assets/icon/ri-instagram-line.svg" alt="Instagram">
                         Cek Instagram Kami
                     </a>
                 </div>
