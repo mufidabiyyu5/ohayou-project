@@ -6,7 +6,7 @@
 
 @section('content')
     <main>
-        <section class="container container-fluid about">
+        <section class="container container-fluid about about-page">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <img src="frontend/assets/images/about-img.png" alt="About" class="img-fluid">

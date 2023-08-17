@@ -6,7 +6,7 @@
 
 @section('content')
     <main>
-        <section class="container container-fluid text-center order">
+        <section class="container container-fluid text-center order order-page">
             <h2><span>Cara Pemesanan</span> Produk</h2>
             <div class="row align-items-start justify-content-center">
                 <div class="col-lg-3">

@@ -15,16 +15,24 @@
         <section class="container container-fluid">
             @foreach ($category as $items)
                 @if ($items->products)
-                    <div class="products" id="{{$items->name}}">
+                    <div class="products" id="{{$items->id}}">
                         <h2>{{$items->name}}</h2>
-                        <div class="row align-items-center">
+                        <div class="row align-items-start">
                         @forelse ($items->products as $item)
                             <div class="col-lg-3">
                                 <a href="{{route('detail', $item->id)}}">
                                     <div class="card-product">
                                         <img src="{{Storage::url($item->galleries->first()->image)}}" alt="product" class="img-fluid img-product">
+                                        @if ($item->isbestselling)
+                                            <div class="tag">
+                                                HOT
+                                            </div>
+                                        @endif
+                                        <div class="quick-view">
+                                            <img src="frontend/assets/icon/Eye.svg" alt="eye" class="img-fluid"> View Detail
+                                        </div>
                                         <h5>{{$item->title}}</h5>
-                                        <p>Mulai dari Rp {{number_format($item->price)}} / pcs</p>
+                                        <p>Mulai dari {{number_format($item->price)}}</p>
                                         <span>Bisa beli satuan</span>
                                     </div>
                                 </a>

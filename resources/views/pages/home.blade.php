@@ -1,8 +1,12 @@
 @extends('layouts.app')
 
 @section('title')
-    Home - Ohayou.Co
+    Ohayou.Co - Konveksi Fashion Tangerang Terpercaya & Berkualitas
 @endsection
+
+@php
+    $iterate = 0;
+@endphp
 
 @section('content')
     <header class="container container-fluid">
@@ -46,7 +50,7 @@
                         <label class="card-hero-img" for="item-1" id="song-1">
                             <img src="frontend/assets/images/image-hero-1.jpg"
                                 alt="song">
-                        </label>
+                        </label> 
                         <label class="card-hero-img" for="item-2" id="song-2">
                             <img src="frontend/assets/images/image-hero-2.jpg"
                                 alt="song">
@@ -79,65 +83,106 @@
                 <span>Berdiri</span>
             </div>
         </section>
+        <section class="container container-fluid hot-products">
+            <h2 class="text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">Hot Products 🔥</h2>
+            <div class="row align-items-center justify-content-center">
+                @foreach ($products as $item)
+                    @if ($item->isbestselling)
+                        <div class="col-lg-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                            <a href="{{route('detail', $item->id)}}">
+                                <div class="card-product">
+                                    <img src="{{Storage::url($item->galleries->first()->image)}}" alt="product" class="img-fluid img-product">
+                                    <div class="tag">
+                                        HOT
+                                    </div>
+                                    <div class="quick-view">
+                                        <img src="frontend/assets/icon/Eye.svg" alt="eye" class="img-fluid"> View Detail
+                                    </div>
+                                    <h5>{{$item->title}}</h5>
+                                    <p>Mulai dari {{number_format($item->price)}}</p>
+                                    <span>Bisa beli satuan</span>
+                                </div>
+                            </a>
+                        </div>
+                    @endif
+                @endforeach
+            <div class="text-center">
+                <a href="{{route('products')}}" class="btn btn-primary">Lihat Semua Produk</a>
+            </div>
+        </section>
+        <section class="container container-fluid categories">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-4">
+                    <a href="{{route('products')}}" class="text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">
+                        <div class="card-categories-main d-flex flex-column" style="background-image: url(frontend/assets/images/tshirt.png);">
+                            
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row-lg">
+                        <a href="{{route('products')}}" class="text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
+                            <div class="card-categories d-flex flex-column" style="background-image: url(frontend/assets/images/outer.png);">
+                        
+                            </div>
+                        </a>
+                        <a href="{{route('products')}}" class="text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
+                            <div class="card-categories d-flex flex-column" style="background-image: url(frontend/assets/images/hat.png);">
+                        
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row-lg">
+                        <a href="{{route('products')}}" class="text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
+                            <div class="card-categories d-flex flex-column" style="background-image: url(frontend/assets/images/shirt.png);">
+                
+                            </div>
+                        </a>
+                        <a href="{{route('products')}}" class="text-center" data-aos="fade-up" data-aos-duration="500" data-aos-delay="600">
+                            <div class="card-categories d-flex flex-column" style="background-image: url(frontend/assets/images/acc.png);">
+                
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="container container-fluid keunggulan text-center">
             <h2 data-aos="fade-up" data-aos-duration="500" data-aos-delay="0"><span>Keunggulan</span> Kami</h2>
             <div class="row align-items-center justify-content-center">
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" class="col-lg-4">
-                    <img src="frontend/assets/images/thumbs.png" alt="Produk Berkualitas" class="img-fluid">
+                    <img src="frontend/assets/icon/thumbsup.gif" alt="Produk Berkualitas" class="img-fluid">
                     <h3>Produk Berkualitas</h3>
                     <caption>Kami selalu menjaga dan memakai bahan yang berkualitas untuk produk kami</caption>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="col-lg-4">
-                    <img src="frontend/assets/images/design.png" alt="Free Jasa Desain" class="img-fluid">
+                    <img src="frontend/assets/icon/design.gif" alt="Free Jasa Desain" class="img-fluid">
                     <h3>Free Jasa Desain</h3>
                     <caption>Kami menyediakan jasa konsultasi dan pembuatan desain secara gratis loh!</caption>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" class="col-lg-4">
-                    <img src="frontend/assets/images/package.png" alt="Tidak Ada Minimal Order" class="img-fluid">
+                    <img src="frontend/assets/icon/package.gif" alt="Tidak Ada Minimal Order" class="img-fluid">
                     <h3>Tidak Ada Minimal Order</h3>
                     <caption>Kamu bisa order satuan ataupun banyak, pokoknya suka-suka kamu deh hehe</caption>
                 </div>
             </div>
             <div class="row align-items-center justify-content-center">
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" class="col-lg-4">
-                    <img src="frontend/assets/images/product.png" alt="Sample Produk" class="img-fluid">
+                    <img src="frontend/assets/icon/cloth.gif" alt="Sample Produk" class="img-fluid">
                     <h3>Sample Produk</h3>
                     <caption>Kami akan mengirimkan gambaran sample produk yang di order untuk di cek kembali</caption>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200" class="col-lg-4">
-                    <img src="frontend/assets/images/price.png" alt="Harga Kompetitif" class="img-fluid">
+                    <img src="frontend/assets/icon/pricetag.gif" alt="Harga Kompetitif" class="img-fluid">
                     <h3>Harga Kompetitif</h3>
                     <caption>Selalu ada harga khusus untuk kamu yang membeli secara grosir</caption>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="400" class="col-lg-4">
-                    <img src="frontend/assets/images/warranty.png" alt="Garansi Produk" class="img-fluid">
+                    <img src="frontend/assets/icon/warranty.gif" alt="Garansi Produk" class="img-fluid">
                     <h3>Garansi Produk</h3>
                     <caption>Kami memberikan garansi terhadap kualitas produk yang baik</caption>
-                </div>
-            </div>
-        </section>
-        <section class="container container-fluid about">
-            <div class="row align-items-center">
-                <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" class="col-lg-6">
-                    <img src="frontend/assets/images/about-img.png" alt="About" class="img-fluid">
-                </div>
-                <div class="col-lg-6">
-                    <h2 data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">
-                        Tentang Ohayou.co
-                    </h2>
-                    <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
-                        Kami merupakan salah satu UMKM yang bergerak pada bidang jasa konveksi yang sudah berjalan sejak tahun 2016
-                        dengan pemilik Muhammad Hasby yang berlokasi di Perum Pesona Wibawa Praja G3/5, Kecamatan Cisoka, Kabupaten Tangerang, Banten.
-                    </p>
-                    <p data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
-                        Kami menawarkan produk-produk fashion seperti kaos, polo shirt, hoodie, sweater, topi, dan lain-lain dengan
-                        bahan yang
-                        berkualitas dengan harga yang kompetitif. Selain itu, kami juga menyediakan bagi siapapun yang ingin menjadi
-                        reseller
-                        atau dropshipper yang tentunya akan sangat menguntungkan untuk kamu.
-                    </p>
-                    <a data-aos="fade-up" data-aos-duration="500" data-aos-delay="600" href="http://wa.me/6289525958301" target="_blank" class="btn btn-primary"><img src="frontend/assets/icon/ri-whatsapp-line.svg" alt="Whatsapp" class="img-fluid">
-                        Hubungi Whatsapp Kami</a>
                 </div>
             </div>
         </section>
